@@ -10,28 +10,29 @@
 	</header>
 	<hr>
 	<br>
-	<form action='#' method='post'>
+	<form id='textPutIn'>
   		<div class="centerBoxes">
-  			<input type="text" name="text-box" id="textBox" placeholder="Say something louder, louder oh ho ho">
+  			<input type="text" id="textBox" placeholder="Say something louder, louder oh ho ho">
   		</div>
   		<br>
  		<div class="centerBoxes">
- 			<input type="submit" id="postButton" value="Post">
+ 			<button type="submit" id="postButton">Push</button>
  		</div>
  	</form>
  	<br>
 	<hr>
+	 <div id='output'></div>
 	<table>
 		<form action='#' method='post'>
 		<tr class="inputTable">
-			<td></td>
-			<td><input type='hidden' name='id' value='textInput'><input type='submit' value='X'></td>
+			<td id="firstOut"></td>
+			<td><input type='submit' value='X'></td>
 		</tr>
 		</form>
 		<form action='#' method='post'>
 		<tr class="inputTable">
 			<td></td>
-			<td><input type='hidden' name='id' value='textInput'><input type='submit' value='X'></td>
+			<td><input type='submit' value='X'></td>
 			</tr>
 		</form>
 		<form action='#' method='post'>
@@ -41,6 +42,7 @@
 			</tr>
 		</form>
 	</table>
+	<script type="text/javascript" src="javascript/app.js"></script>
 </body> 
 </html>
 
